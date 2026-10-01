@@ -7,11 +7,26 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#0E1726",
-    "splash": { "image": "./assets/splash-icon.png", "resizeMode": "contain", "backgroundColor": "#0E1726" },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E1726"
+    },
     "android": {
       "package": "com.anmol.winterarc",
-      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#0E1726" }
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0E1726"
+      }
     },
-    "ios": { "bundleIdentifier": "com.anmol.winterarc" }
+    "ios": {
+      "bundleIdentifier": "com.anmol.winterarc"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "85dc70a9-f8eb-4850-93a2-9290d5d7fa11"
+      }
+    },
+    "owner": "pvtt_anmol2"
   }
 }
