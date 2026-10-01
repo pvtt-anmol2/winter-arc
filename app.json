@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Winter Arc",
+    "slug": "winter-arc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0E1726",
+    "splash": { "image": "./assets/splash-icon.png", "resizeMode": "contain", "backgroundColor": "#0E1726" },
+    "android": {
+      "package": "com.anmol.winterarc",
+      "adaptiveIcon": { "foregroundImage": "./assets/adaptive-icon.png", "backgroundColor": "#0E1726" }
+    },
+    "ios": { "bundleIdentifier": "com.anmol.winterarc" }
+  }
+}
